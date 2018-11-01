@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re-path
 from blog import views
 # use path instead of url django 2.0 update
 urlpatterns = [
